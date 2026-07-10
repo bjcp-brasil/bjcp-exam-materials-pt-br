@@ -11,6 +11,7 @@ Registro de mudanças nos arquivos deste repositório. Formato livre — cada en
   - `cerveja/exame-julgamento/Beer-examinee-scoresheet-pt-br.doc`: a versão antiga (pré-2025) foi **removida** — a versão 2025 assumiu o nome limpo. Conteúdo antigo recuperável via `git log`.
   - `cerveja/exame-julgamento/Beer-examinee-scoresheet-pt-br-2025TESTE.doc`: **removido** — cópia de teste redundante do conteúdo da versão vigente, sem valor além do que os PDFs de teste já documentam.
 - Adicionado este CHANGELOG.md.
+- Corrigido README.md: a nota sobre a súmula de Proctor da cerveja citava o nome do template como `-pt-br.docx` (fragmento confuso, parecia repetir "pt-br"); trocado pelo nome completo `Beer-proctor-scoresheet-pt-br.docx`. Corrigido também o padrão da tabela de `proctor-instructions` pra casar de fato com os arquivos `-1`/`-2` de sidra/hidromel.
 
 ## 2026-07-09
 
