@@ -36,10 +36,10 @@ Aplica-se a `cerveja/exame-julgamento/`, `sidra/exame-julgamento/` e `hidromel/e
 
 ### Notas sobre variantes/duplicatas encontradas
 
-- **`Beer-proctor-scoresheet-pt-br-1.docx` / `-2.docx` / `-2025.docx`**: a súmula de Proctor da cerveja tem duas páginas (página 1 = checklist de descritores, página 2 = grade de pontuação "SÚMULA DE CERVEJA"), distribuídas como arquivos separados. `-1.docx` é a página 1 preenchida com dados de um exame real (Curitiba, 22/11/2025); `-2025.docx` é a mesma página 1 mas como template de mala direta (placeholders em branco); `-2.docx` é a página 2. Sidra e Hidromel só têm a versão `-2025.docx` (não incluem a divisão em 2 arquivos nem o exemplo preenchido).
+- **`Beer-proctor-scoresheet-pt-br-1.docx` / `-2.docx` / `-pt-br.docx`**: a súmula de Proctor da cerveja tem duas páginas (página 1 = checklist de descritores, página 2 = grade de pontuação "SÚMULA DE CERVEJA"), distribuídas como arquivos separados. `-1.docx` é a página 1 preenchida com dados de um exame real (Curitiba, 22/11/2025), mantida como exemplo de referência; `-pt-br.docx` (sem sufixo numérico) é a mesma página 1 mas como template de mala direta (placeholders em branco, é a versão pra reutilizar); `-2.docx` é a página 2. Sidra e Hidromel só têm a versão template (não incluem a divisão em 2 arquivos nem o exemplo preenchido).
 - **`*-proctor-instructions-pt-br-1.docx` / `-2.docx`** (Sidra e Hidromel): duas versões com textos de abertura diferentes e conteúdo parcialmente sobreposto. Aparentam ser duas versões/rascunhos do mesmo documento — mantidas ambas como recebidas, sem tentar decidir qual é a "oficial". A cerveja só tem uma versão (`Beer-proctor-instructions-pt-br.docx`, equivalente ao conteúdo do `-2`).
 - **Bug de tradução encontrado (não corrigido aqui)**: os arquivos `proctor-instructions` de Cerveja e Hidromel mencionam "sidras" no meio do texto (aparentemente um resquício de copiar/colar da versão original de Sidra sem trocar todas as ocorrências). Mantido como está no arquivo original — vale reportar pra quem mantém a tradução original corrigir na fonte.
-- **`Beer-examinee-scoresheet-pt-br.doc` / `-2025.doc` / `-2025TESTE.doc` / `-2025TESTE.pdf` / `-2025TESTE-preenchido.pdf`**: a súmula do candidato de cerveja tem várias versões — `.doc` sem sufixo parece ser uma versão anterior a 2025; `-2025.doc` é a atual; os dois arquivos `TESTE` (um `.doc`, dois `.pdf`) parecem ser renders de teste do processo de mala direta/exportação em PDF (verificando se os placeholders e a formatação de impressão saem certos), não material final de exame. Sidra e Hidromel só têm a versão `-2025.docx`, sem esses rascunhos de teste.
+- **`Beer-examinee-scoresheet-pt-br.doc` / `.pdf` / `-preenchido.pdf`**: a súmula do candidato de cerveja. `.doc` é o template de mala direta (versão vigente); `.pdf` e `-preenchido.pdf` são renders de teste do processo de exportação em PDF (verificando se os placeholders e a formatação de impressão saem certos), não material final de exame — mantidos como referência do processo de geração. Uma versão anterior (pré-2025) e uma cópia de teste redundante do `.doc` foram descartadas na organização deste repositório (ver [CHANGELOG.md](CHANGELOG.md)); o histórico do git preserva o conteúdo original caso seja necessário. Sidra e Hidromel só têm a versão `.docx` vigente, sem rascunhos de teste.
 
 ## Exame Escrito de Proficiência — só Cerveja
 
@@ -49,8 +49,12 @@ Aplica-se a `cerveja/exame-escrito/`.
 |---|---|
 | `Beer-written-exam-procedures-pt-br.docx` | Procedimentos completos do exame escrito: planejamento, requisitos, logística. Uso: Administrador do Exame. |
 | `Beer-Written-Exam-Participant-Instructions-pt-br.docx` | Instruções para os candidatos antes/durante o exame escrito (o que levar, como preencher o Formulário de Captura de Dados, etc.). Uso: Candidato. |
-| `Beer-Written-Exam-Admin-Cover.docx` | Carta-modelo do Exam Director pro Administrador do Exame escrito. Uso: Exam Director → Administrador do Exame. |
-| `Beer-written-BJCP-exam-paper-A4-ptbr.doc` | A prova escrita em si (template com placeholder `{{EXAMECODE}}`), formatada pra papel A4. Uso: Candidato, durante o exame. |
+| `Beer-Written-Exam-Admin-Cover-pt-br.docx` | Carta-modelo do Exam Director pro Administrador do Exame escrito. Uso: Exam Director → Administrador do Exame. |
+| `Beer-written-BJCP-exam-paper-A4-pt-br.doc` | A prova escrita em si (template com placeholder `{{EXAMECODE}}`), formatada pra papel A4. Uso: Candidato, durante o exame. |
+
+## Changelog
+
+Mudanças nos arquivos (renomeações, remoções, atualizações de versão) ficam registradas em [CHANGELOG.md](CHANGELOG.md).
 
 ## Licença / origem
 
