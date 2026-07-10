@@ -20,6 +20,10 @@ Registro de mudanças nos arquivos deste repositório. Formato livre — cada en
   - `Cider-judging-exam-instructions-pt-br.docx` e `Mead-judging-exam-instructions-pt-br.docx`: `lapis`→`lápis`.
   - `Mead-proctor-instructions-pt-br-1.docx`: `houverm`→`houverem`, `hidromels`→`hidroméis`.
   - `Mead-proctor-scoresheet-pt-br.docx`: `GIUA DE PONTUAÇÃO`→`GUIA DE PONTUAÇÃO`, `e/ouaromas`→`e/ou aromas` (faltava espaço entre dois runs de texto do Word).
+- Corrigido bug de tradução (texto colado da versão de Sidra sem trocar todas as ocorrências, incluindo erro de concordância de gênero) em 3 arquivos `proctor-instructions`:
+  - `Beer-proctor-instructions-pt-br.docx`: "das sidras do exame"→"das cervejas do exame", "avaliar a sidra"→"avaliar a cerveja", "para cada sidra/perada"→"para cada cerveja", "julgar as sidras do exame"→"julgar as cervejas do exame".
+  - `Mead-proctor-instructions-pt-br-1.docx`: "das sidras do exame"→"dos hidroméis do exame", "avaliar a sidra"→"avaliar o hidromel".
+  - `Mead-proctor-instructions-pt-br-2.docx`: mesmas 4 correções do arquivo de cerveja, adaptadas pro gênero masculino de "hidromel".
 
 ## 2026-07-09
 
